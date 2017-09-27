@@ -29,7 +29,7 @@ endif
 
 IMAGE := $(REGISTRY)/$(BIN)-$(ARCH)
 
-BUILD_IMAGE ?= golang:1.7-alpine
+BUILD_IMAGE ?= golang:1.9
 
 VERSION := $(shell git rev-parse HEAD)
 
